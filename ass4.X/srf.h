@@ -17,7 +17,7 @@
 /**
  * Callback called when distance is acquired from SRF-08 module.
  */
-typedef void (*SrfDistanceCallback)(unsigned char distance);
+typedef void (*SrfDistanceCallback)(short unsigned int distance);
 void srf_registerDistanceCallback(SrfDistanceCallback ptr_srfDistanceCallback);
 
 /**
